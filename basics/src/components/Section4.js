@@ -16,4 +16,4 @@ export default class Section4 extends Component {
                 </div>
             </section>
         )
-    }.}
+    }}

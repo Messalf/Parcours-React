@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import pic01 from '../images/pic01.jpg';
 
 export default class Section1 extends Component {
   render() {
@@ -17,7 +16,7 @@ export default class Section1 extends Component {
                     </div>
                     <div className="col-6 col-12-medium imp-medium">
                         <span className="image fit">
-                            <img src={pic01} alt="" />
+                            <img src="/images/pic01.jpg" alt="" />
                         </span>
                     </div>
                 </div>

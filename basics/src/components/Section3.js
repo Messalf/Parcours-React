@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import pic02 from '../../images/pic02.jpg';
-import pic03 from '../../images/pic03.jpg';
-import pic04 from '../../images/pic04.jpg';
 
 export default class Section3 extends Component{
     render() {
@@ -14,7 +11,7 @@ export default class Section3 extends Component{
 					<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
 					<div className="row gtr-150">
 						<div className="col-4 col-12-medium">
-							<span className="image fit"><img src={pic02} alt="" /></span>
+							<span className="image fit"><img src="/images/pic02.jpg" alt="" /></span>
 							<h3>Magna feugiat lorem</h3>
 							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
 							<ul className="actions special">
@@ -22,7 +19,7 @@ export default class Section3 extends Component{
 							</ul>
 						</div>
 						<div className="col-4 col-12-medium">
-							<span className="image fit"><img src={pic03} alt="" /></span>
+							<span className="image fit"><img src="/images/pic03.jpg" alt="" /></span>
 							<h3>Magna feugiat lorem</h3>
 							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
 							<ul className="actions special">
@@ -30,7 +27,7 @@ export default class Section3 extends Component{
 							</ul>
 						</div>
 						<div className="col-4 col-12-medium">
-							<span className="image fit"><img src={pic04} alt="" /></span>
+							<span className="image fit"><img src="/images/pic04.jpg" alt="" /></span>
 							<h3>Magna feugiat lorem</h3>
 							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
 							<ul className="actions special">
